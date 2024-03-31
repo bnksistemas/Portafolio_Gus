@@ -1,5 +1,4 @@
 from django.shortcuts import render
-
 # Create your views here.
 
 def home(request):
@@ -8,8 +7,6 @@ def home(request):
 def about(request):
     return render(request, 'core/about.html')
 
-def projects(request):
-    return render(request, 'core/projects.html')
 
 def contact(request):
-    return render(request, 'core/contact.html')
+    return render(request, 'proyectos/contact.html')
