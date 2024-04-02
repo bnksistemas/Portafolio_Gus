@@ -11731,4 +11731,21 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+
+  .card__skills {
+    margin: 20px 15px;
+    padding: 20px 20px;
+    max-height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    }
+    .skill__logo {
+      width: 70px;
+      height: auto;
+  }
+  
 }

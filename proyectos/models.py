@@ -14,6 +14,7 @@ class Project(models.Model):
     class Meta:
         verbose_name = 'proyecto'
         verbose_name_plural = 'proyectos'
+        db_table = "proyects"
         ordering = ['-created']
 
 
